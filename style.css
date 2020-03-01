@@ -18,6 +18,7 @@ body{
 	position: sticky;
 	width: 100%;
 	z-index: 10000;
+	min-width: 700px;
 	
 
 }
@@ -95,8 +96,9 @@ position: relative;
 	top: 50%;
 	left: 25%;
 	width: 40%;
-	text-align: center;
 	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 970px;
 }
 .lite-border-btn{
 	font-size: 35px;
@@ -128,6 +130,7 @@ transition-duration:
 .box{
 	position: relative;
 	width: 100%;
+	min-width: 700px;
 }
 #ad-box-btn{
 	top: 50px;
@@ -211,7 +214,7 @@ font-size: 50px;
 
 }
 #box4-title{
-	max-width: 50%;
+	/*max-width: 50%;*/
 	min-width: 25%;
 	color: #fff;
 	font-size: 30px;
@@ -275,15 +278,17 @@ box-shadow: 0 20px 10px #000
 }
 #box5{
 	background-color: #fff;
-		height: 1000px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
 }
-#box5-cards{
+/*#box5-cards{
 	top: 50%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
 	width: 920px;
-}
+}*/
 .box5-card{
 	background-color: #333;
 	display: inline-block;
@@ -455,7 +460,8 @@ border-bottom: 	solid #000 2px
 }
 #addition-top-menu a{
 	color: #fff;
-	text-decoration: none;	
+	text-decoration: none;
+	min-width: 700px;
 }
 #addition-top-menu a:hover{
 	text-decoration: underline;	
@@ -532,3 +538,41 @@ font-family: font1;
  .small img{
  	width: 100%;
  }
+ @media(max-width: 800px){
+#box6-more{
+	width: 100%;
+ }}
+
+@media(max-width: 910px){
+	#ad-box-text{
+		width: 55%;
+		left: 29%;
+	}
+}
+@media(max-width: 1040px){
+	#box1-title{
+		width: 90%;
+		left: 50%;
+	}
+	#box2-title{
+		left: 50%;
+	}
+
+#bo2-title img{
+	display: none;
+
+}
+
+
+}
+@media(max-width: 1068){
+#box4-title{ 
+	width: 50%;
+	left: 27%;
+	transform: translate(-50%,-50%);
+
+	}
+	#tml-btn1{
+		display: none;
+	}
+}
